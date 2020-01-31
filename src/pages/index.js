@@ -1,6 +1,10 @@
 import React from "react"
+import Header from "../components/header"
+import { Link } from "gatsby"
 
 export default () => <div style={{color: 'purple', fontSize: '72px'}}>
-    <h1>Hello gatsby</h1>
+    <Header headerText="Hello  Gatsby" />
+  <Link to="/contact">Contact</Link>
     <p>paragraph</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dog_coat_variation.png/220px-Dog_coat_variation.png" alt="dog"/>
 </div>
